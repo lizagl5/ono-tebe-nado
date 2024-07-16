@@ -22,17 +22,16 @@
   list-style: none;
 }
 
+.header__links-list-item_no-bullit > .header__link {
+  text-decoration: none;
+}
+
 .header__logo {
   display: block;
   width: 148px;
   height: 105px;
   padding: 0px 6px 0;
 }
-
-/* .header__logo-image {
-  width: 135px;
-  height: 107px;
-} */
 
 .address {
   width: 241px;
@@ -282,13 +281,13 @@ a {
   word-spacing: 1.01px;
 }
 
-.about__text-descriptions {
+/* .about__text-descriptions {
   word-spacing: 0.5px;
   letter-spacing: 0.01px;
-}
+} */
 
 .footer {
-  padding: 181px 25px 0;
+  padding: 0 50px 88px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
@@ -306,6 +305,10 @@ a {
   font-size: 18px;
   line-height: 21px;
   list-style: none;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-list {
